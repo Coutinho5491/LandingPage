@@ -45,9 +45,30 @@ body {
     margin-bottom: 100px;
 }
 
+.saudação {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .conteudo-principal{
     display: flex;
     flex-direction: column;
+}
+
+.saudação {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 55px;
 }
 
 .conteudo-principal-escrito{

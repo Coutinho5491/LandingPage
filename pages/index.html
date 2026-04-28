@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sou o Gabriel Coutinho e aqui está todas as minhas experiências e projetos criados.">
     <title>Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="logo (1).svg" alt="logo da Landing Page">
+        <img class="cabecalho-imagem" src="../assets/images/logo (1).svg" alt="logo da Landing Page">
         <nav class="cabecalho-menu">
 
             <!--Utilizando a TAG section ou colocando um ID dentro de uma Class podemos clicar no botão e ir direto onde o botão indica colocando o href="#id da section"-->
 
-            <a class="cabecalho-menu-item">Home</a>
+            <a class="cabecalho-menu-item" href="#cabecalho">Home</a>
             <a class="cabecalho-menu-item" href="#Projetos">Projetos</a>
             <a class="cabecalho-menu-item" href="#Experiências">Experiências</a>
             <a class="cabecalho-menu-item" href="#Contato">Contato</a>
@@ -27,21 +27,23 @@
 
             <section clas="conteudo-principal">
 
+                <h1 class ="saudação" id="nomeVisitante">Olá,<br>Seja Bem Vindo(a) Visitante</h1>
+
                 <div class="conteudo-principal-escrito">
-                    <img class="conteudo-principal-imagem" src="minha foto.png" alt="Avatar da página">
-                    <h1 class="conteudo-principal-escrito-titulo">Sou desenvolvedor full-stack mas<br/>minha paixão é o <apan class="texto-gradiente">front-end!</apan></h1>
-                    <h2 class="conteudo-principal-escrito-subtitulo">Pós graduado em Desenvolvimento Web Full Stack,<br/> com 1 ano de experiência em desenvolvimento de aplicações e análise de dados.<br/> Tenho atuado com linguagens como Java, PHP, Python e Node.js,<br/> sempre focado em criar soluções modernas, eficientes e <br/>orientadas à performance. Estou em constante evolução, acompanhando as <br/>tendências do mercado e aprimorando minhas habilidades técnicas.</h2>
+                    <img class="conteudo-principal-imagem" src="../assets/images/minha foto.png" alt="Avatar da página">
+                    <h1 class="conteudo-principal-escrito-titulo">Formado em desenvolvimento<br/><apan class="texto-gradiente">Full-Stack</apan></h1>
+                    <h2 class="conteudo-principal-escrito-subtitulo">Pós graduado em Desenvolvimento Web Full Stack,<br/> com 1 ano de experiência em desenvolvimento de aplicações e análise de dados.<br/> Tenho atuado com linguagens como JavaScript, C++, JAVA, PHP, Python e Node.js,<br/> sempre focado em criar soluções modernas, eficientes e <br/>orientadas à performance. Estou em constante evolução, acompanhando as <br/>tendências do mercado e aprimorando minhas habilidades técnicas.</h2>
                     <nav class="conteudo-principal-botao">
                         <button class="conteudo-principal-botao-contato">Entre em contato</button>
                         <button class="conteudo-principal-botao-baixar">Baixar CV </button>
                     </nav>
                         <h3 class="conteudo-principal-linguagens" id="Experiências">EXPERIÊNCIA COM</h3>
                         <nav  class="conteudo-principal-linguagens-imagem">
-                            <img class="conteudo-principal-linguagens-javascript" src="javascript.svg" alt="Logo javascript">
-                            <img class="conteudo-principal-linguagens-nodejs" src="nodejs.svg" alt="Logo Nodejs">
-                            <img class="conteudo-principal-linguagens-html" src="html.svg" alt="Logo Html">
-                            <img class="conteudo-principal-linguagens-css" src="css.svg" alt="Logo Css">
-                            <img class="conteudo-principal-linguagens-react" src="reactjs.svg" alt="Logo Reactjs">
+                            <img class="conteudo-principal-linguagens-javascript" src="../assets/images/javascript.svg" alt="Logo javascript">
+                            <img class="conteudo-principal-linguagens-nodejs" src="../assets/images/nodejs.svg" alt="Logo Nodejs">
+                            <img class="conteudo-principal-linguagens-html" src="../assets/images/html.svg" alt="Logo Html">
+                            <img class="conteudo-principal-linguagens-css" src="../assets/images/css.svg" alt="Logo Css">
+                            <img class="conteudo-principal-linguagens-react" src="../assets/images/reactjs.svg" alt="Logo Reactjs">
                         </nav>
 
                 </div>
@@ -55,7 +57,7 @@
                 <section id="Projetos">
                 <div class="conteudo-secundario-cards-container">
                     <div class="conteudo-secundario-card-html">
-                        <img class="conteudo-secundario-card-imagem" src="thumbnail-HTML.svg" alt="Poder do HTML">
+                        <img class="conteudo-secundario-card-imagem" src="../assets/images/thumbnail-HTML.svg" alt="Poder do HTML">
                             <a class="conteudo-secundario-card-item">
                                 <p class="conteudo-secundario-card-item-1">CLIQUE PARA VER</p>
                                 <h3 class="conteudo-secundario-card-item-2">PROJETOS FRONT-END</h3>
@@ -63,7 +65,7 @@
                     </div>
 
                     <div class="conteudo-secundario-card-css">
-                        <img class="conteudo-secundario-card-imagem" src="thumbnail-CSS.svg" alt="Desbloqueando o CSS">
+                        <img class="conteudo-secundario-card-imagem" src="../assets/images/thumbnail-CSS.svg" alt="Desbloqueando o CSS">
                             <div class="conteudo-secundario-card-item">
                                 <p class="conteudo-secundario-card-item-1">CLIQUE PARA VER</p>
                                 <h3 class="conteudo-secundario-card-item-2">CSS TUTORIAL</h3>
@@ -87,16 +89,18 @@
                 <!--Apenas utilizar a tag a a pagina do link abrirá na mesma pagina do navegador. Para abrir em outra aba/página, você precisa usar o atributo:target="_blank"-->
 
                 <a class="conteudo-rodape-linkedin" href="https://www.linkedin.com/in/gabriel-coutinho-1204b31a3" target="_blank">
-                    <img class="conteudo-rodape-linkedin-botao" src="linkedin.svg" alt="Botão" />
+                    <img class="conteudo-rodape-linkedin-botao" src="../assets/images/linkedin.svg" alt="Botão" />
                 </a>
                 <a class="conteudo-rodape-instagram" href="https://www.instagram.com/coutinhogh_?utm_source=ig_web_button_share_sheet&igsh=cDNrOGFldGl0MW51" target="_blank">
-                    <img class="conteudo-rodape-instagram-botao" src="instagram.svg" alt="Botão" />
+                    <img class="conteudo-rodape-instagram-botao" src="../assets/images/instagram.svg" alt="Botão" />
                 </a>
             </nav> 
             </section>   
         </div>
 
     </footer>
-    
+
+    <script src="../assets/js/script_login.js"></script>
+ 
 </body>
 </html>

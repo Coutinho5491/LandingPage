@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login -->
+        <div class="login-section">
+            <h1>GABRIEL COUTINHO</h1>
+            <p>Aprimorando técnicas e conhecimento.</p>
+            <p>Seja bem vindo<br>Acesse minha Landing page agora.</p>
+                <div class="acesso-login">
+                    <input type="email" name="email" placeholder="Login" required>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+            <button onClick="validarLogin()">ENTRAR</button>
+            <a href="#">Esqueci minha senha</a>
+        </div>
+
+        <!-- Cadastro -->
+        <div class="register-section">
+            <h1>Crie seu login</h1>
+            <p>Preencha seus dados</p>
+            <div class="formulario">
+                <form action="index.html" method="get">
+                    <input type="text" id="inputSaudacao" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                    <button onClick="adicionarNome()">CADASTRAR</button>
+                </form>
+            </div>
+        </div>
+  </div>
+
+  <script src="../assets/js/script_login.js"></script>
+</body>
+</html>
