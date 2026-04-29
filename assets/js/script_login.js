@@ -47,3 +47,13 @@ function validarLogin() {
 if (nomeUsuario && saudacao) {
   saudacao.innerHTML = `Olá,<br>Seja Bem Vindo(a) ${nomeUsuario}`;
 }
+// Levar para Whatsapp
+function Whatsapp() {
+  window.open("https://wa.me/5519988872769", "_blank");
+}
+
+// Baixar CV
+
+function baixarCV() {
+  window.open("../assets/documents/Gabriel-Henrique-Coutinho-CV.pdf", "_blank");
+}

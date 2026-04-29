@@ -32,6 +32,7 @@ A aplicação foi desenvolvida utilizando conceitos de responsividade com media 
 /js
 /images
 /pages
+/documents
 index.html
 login.html
 
