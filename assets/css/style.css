@@ -214,14 +214,15 @@ body {
   position: absolute;
   bottom: 22%;
   left: 30.3%;
-  /*transform: translateX(-50%);*/      /* ajusta para o centro exato */
   background: linear-gradient(90deg, #3b82f6, #9333ea);      /* azul → roxo */
   color: #fff;                  /* texto branco */
+  color: #fff;                 /* texto branco */
   font-size: 16px;
   font-weight: bold;
   padding: 12px 24px;
   border: none;
   border-radius: 8px;           /* cantos arredondados */
+  border-radius: 8px;         /* cantos arredondados */
   cursor: pointer;
   transition: transform 0.2s, opacity 0.2s;
 }
